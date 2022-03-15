@@ -1,0 +1,19 @@
+{
+    "name": "random_kaos_2",
+    "symbol": "",
+    "image": "2.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "2.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "9CscYZKfZf1X7aeu4t9kLG5F3C5a7MYovZGK8ESWsB5i",
+          "share": 100
+        }
+      ]
+    }
+  }
