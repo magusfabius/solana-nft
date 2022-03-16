@@ -89,6 +89,17 @@ Installation: sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
     - ts-node ~/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts update_candy_machine -e devnet  -k ~/.config/solana/devnet.json -cp config.json
 
 
+### Deploy using Vercel
+
+1. upload the project on github
+2. ignore .cache and .env by adding them in .gitignore
+3. go on Vercel and select the github project
+4. add ENVIROMENT VARIABLES that were in .env plus add the variable with name CI and value 'False' to skip the warning problems while building 
+
+# preview
+link https://solana-nft-six.vercel.app/
+
+
 
 
 
